@@ -235,15 +235,18 @@ def drawScene():
 
     glPopMatrix()
 
+    # Orbita del satellite intorno all'asteroide
     glPushMatrix()
     glRotatef(rot_orbita, 1.0, 1.0, 0.0)
 
+    # Satellite
     glPushMatrix()
     glTranslatef(0.0, 0.0, -9.0)
     glRotatef(rot_asse, 1.0, -1.0, 0.0)
     glBindTexture(GL_TEXTURE_2D, luna)
     gluSphere(quadrica, raggio_luna, 50, 50)
 
+    # Divertente elemento sul satellite
     glPushMatrix()
     glRotatef(65, -1.0, 0.0, 0.0)
     creaElemento(dugtrio, 0.4, 0.4, raggio_luna-0.05)
