@@ -1,4 +1,4 @@
-I requisiti per eseguire il file sono quelli specificati durante l'introduzione del corso.
+I prerequisiti per eseguire il file sono quelli specificati durante la prima lezione del corso.
 
 Per eseguire:
 
@@ -6,7 +6,7 @@ Per eseguire:
 
 oppure
 
-- avviare da terminale scrivendo "python lavazzaPiccoloPrincipe.py"
+- portarsi nella cartella contenente il file .py e quindi avviare da terminale scrivendo "python lavazzaPiccoloPrincipe.py" o "python3 lavazzaPiccoloPrincipe.py"
 
 I comandi vengono mostrati all'avvio, ma ricapitolandoli:
 
